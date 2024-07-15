@@ -1,20 +1,16 @@
-<!--- This template should be used if the project contains hardware designs. If the project contains both hardware and software designs, please also refer to software-readme-template.md and incorporate relevant sections. -->
 
-# Name of hardware design
+# Digital Timer
 
-<!---Start with a short description of what the project does--no more than two paragraphs--->
+The project involves a digital timer that counts up to one minute. Each counter's 4-bit output is fed into a binary-to-7-segment decoder, enabling number display on 7-segment displays. 
+The circuit includes switches for starting/stopping the timer and resetting the count.
 
 ## Contents
 
-<!---List file contents of the project, in table.--->
-
 | File/folder | Description |
 |-------------|-------------|
-| `Schematic.pdf`       | Schematic |
-| `BOM.xlsx`       | Bill of materials |
-| `PCB.pdf`        | Report on PCB stack-up |
-| `Altium`         | Altium Designer schematics, PCB layout, and supporting project files
-| `CHANGELOG.md` | List of changes to the project. |
+| `PCB.kicad_sch`       | Schematic |
+| `PCB.kicad_pcb`       | PCB editor |
+| `gerber`         | Altium Designer schematics, PCB layout, and supporting project files
 | `README.md` | This README file. |
 | `LICENSE`   | The license for the project. |
 
