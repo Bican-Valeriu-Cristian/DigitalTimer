@@ -4,6 +4,8 @@
 The project involves a digital timer that counts up to one minute. Each counter's 4-bit output is fed into a binary-to-7-segment decoder, enabling number display on 7-segment displays. 
 The circuit includes switches for starting/stopping the timer and resetting the count.
 
+![WhatsApp Image 2024-07-15 at 16 40 44_299e31ab](https://github.com/user-attachments/assets/213ad60d-3f88-43cd-a523-6e26f5be1f9d)
+
 ## Contents
 
 | File/folder | Description |
@@ -16,16 +18,45 @@ The circuit includes switches for starting/stopping the timer and resetting the 
 
 ## Tools
 
+First step:
 The schematic for this project was created using KiCad software.
 ![image](https://github.com/user-attachments/assets/70af9907-743c-42b4-9098-a226bc5d1068)
 
-## Key concepts
+Next was drawing the layout:
 
-Discuss the aspects of the project that might be particularly useful to someone looking at it:
+  -The PCB is a 8 cm x 8 cm 2-layer board.
 
-- Significant design decisions
-- Gotchas and tricky bits
-- Opportunities for customization
+  -It has a GND copper plane on both layers.
+
+  -All signal traces are 0.254 mm, while the 5V power trace is double the size, at 0.508 mm.
+
+  -Proper names were added for the various components, along with description text and a nice drawing.
+
+  ![image](https://github.com/user-attachments/assets/8297ebc3-cc89-426a-9515-4b28f4dc6ea6)
+
+
+The final steps were to order the parts, the PCB, and assemble the board.
+
+  -The various components were ordered from TME
+  
+  -The PCB was ordered from Jlcpcb
+
+  
+
+## Bill of materials
+
+-2x 7-segment displays
+-2x 10nF ceramic capacitors
+-1x 1uF electrolytic capacitor
+-2x push switches
+-2x header pins
+-2x 4-bit tri-state registers
+-2x 4-bit BCD decoders
+-2x 4-bit counters
+-2x quad AND gate chips
+-1x quad NOR gate chip
+-1x dual JK flip-flop chip
+-Various resistors
 
 ## Next steps
 
