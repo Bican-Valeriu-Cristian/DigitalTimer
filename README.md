@@ -46,28 +46,46 @@ The final steps were to order the parts, the PCB, and assemble the board.
 ## Bill of materials
 
 -2x 7-segment displays
+
 -2x 10nF ceramic capacitors
+
 -1x 1uF electrolytic capacitor
+
 -2x push switches
+
 -2x header pins
+
 -2x 4-bit tri-state registers
+
 -2x 4-bit BCD decoders
+
 -2x 4-bit counters
+
 -2x quad AND gate chips
+
 -1x quad NOR gate chip
+
 -1x dual JK flip-flop chip
+
 -Various resistors
 
-## Next steps
 
-<!---Next steps for users to learn more about the technology, how to revise the project to do other interesting things, etc. Don't reiterate the online documentation here; link to it if necessary. --->
+## Final statistics
 
-## Project expectations
+Total cost:
+  Components: 100 RON
+  PCB: 50 RON
+Total hours of work:
+  Designing schematic and testing: 3 hours
+  Making layout: 3 hours
+  Assembling PCB: 5 hours
 
-Describe the state of the design. For example:
+## Extra photos
 
-* The design has been manufactured and tested / not been manufactured
-* Certifications or standards that the design has been tested for / not been tested for (if relevant)
+![WhatsApp Image 2024-07-15 at 16 51 08_b6c535b6](https://github.com/user-attachments/assets/0db0438a-ebec-4b45-b33e-eb69d2b60232)
+
+![WhatsApp Image 2024-07-15 at 16 51 08_239efd22](https://github.com/user-attachments/assets/e20fdcaf-e616-45ec-b758-2ef99c2d87f1)
+
 
 ### Expected support for the project
 
@@ -77,26 +95,7 @@ How often will you check and reply to issues or maintain and update the code? Fo
 * Will reply to issues once per quarter, once a year, etc.
 * No support whatsoever, code is as is
 
-## Contributing
-
-<!--- Include the following text verbatim--->
-
-This project welcomes contributions and suggestions. Most contributions require you to
-agree to a Contributor License Agreement (CLA) declaring that you have the right to,
-and actually do, grant us the rights to use your contribution. For details, visit
-https://cla.microsoft.com.
-
-When you submit a pull request, a CLA-bot will automatically determine whether you need
-to provide a CLA and decorate the PR appropriately (e.g., label, comment). Simply follow the
-instructions provided by the bot. You will only need to do this once across all repositories using our CLA.
-
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/)
-or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
 ## License
-
-<!---Make sure you've added the [Creative Commons Attribution 4.0 International Public License](https://github.com/Azure/azure-sphere-hardware-designs/blob/master/LICENSE) to the folder.--->
-<!---If you have software as well as hardware in this folder, then also add [MIT license](https://docs.opensource.microsoft.com/content/releasing/license.html) to this folder as LICENSE-CODE and change the below statement to "Code in this folder is licensed under the MIT license (see LICENSE-CODE).  Any other content is licensed under the Creative Commons Attribution 4.0 International Public License (see LICENSE) -->
 
 For details on license, see LICENSE in this directory.
