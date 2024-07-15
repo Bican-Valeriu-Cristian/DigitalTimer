@@ -16,7 +16,8 @@ The circuit includes switches for starting/stopping the timer and resetting the 
 
 ## Tools
 
-<!--- Describe the tool versions used to create this hardware design --->
+The schematic for this project was created using KiCad software.
+![image](https://github.com/user-attachments/assets/70af9907-743c-42b4-9098-a226bc5d1068)
 
 ## Key concepts
 
