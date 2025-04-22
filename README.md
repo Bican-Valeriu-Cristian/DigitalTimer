@@ -77,12 +77,6 @@ The final steps were to order the parts, the PCB, and assemble the board.
 
 
 ## Final statistics
-
-Total cost:
-
-  Components: 100 RON
-  
-  PCB: 50 RON
   
 Total hours of work:
 
